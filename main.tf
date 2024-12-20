@@ -11,6 +11,11 @@ terraform {
       version = "5.2.0"
     }
   }
+  backend "gcs" {
+    bucket = "<bucket-name>"
+    prefix = "<folder in the bucket>" // Optional: Adjust the prefix as needed
+    credentials = "<path/to/json/key>"
+  }
 }
 
 # Create VPC
