@@ -8,7 +8,7 @@
 
 ## b. Deploy the terraform files
 - The file `main.tf` in the repository has the teraform code to be deployed 
-- Replace the **project-name** in the file
+- Replace the **project-name**, **bucket-name**, **prefix** and **credentials json file** in the file
 - Run the following commands
 ```bash
 terraform init
